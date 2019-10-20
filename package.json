@@ -9,6 +9,15 @@
 	"categories": [
 		"Other"
 	],
+	"author": {
+		"name": "Logic Wei",
+		"email": "logic_wei@163.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/logic-wei/log-helper"
+	},
+	"homepage": "https://github.com/logic-wei/log-helper",
 	"activationEvents": [
 		"onCommand:extension.print_matching_lines",
 		"onCommand:extension.delete_matching_lines",
