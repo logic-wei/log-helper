@@ -25,3 +25,7 @@ Coming soon.
 ### 0.0.1
 
 Add feature `Print Matching Lines`.
+
+### 0.0.2
+
+Change the name.

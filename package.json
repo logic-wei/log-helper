@@ -1,8 +1,8 @@
 {
 	"name": "log-helper",
-	"displayName": "log-helper",
+	"displayName": "Log Helper",
 	"description": "A tool box for making it easy to analyze log in vscode",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"engines": {
 		"vscode": "^1.39.0"
 	},
