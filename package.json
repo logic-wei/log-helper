@@ -4,12 +4,12 @@
 	"description": "A tool box for making it easy to analyze log in vscode",
 	"version": "0.0.1",
 	"engines": {
-		"vscode": "^1.0.0"
+		"vscode": "^1.39.0"
 	},
 	"categories": [
 		"Other"
 	],
-	"publisher": "Logic Wei",
+	"publisher": "Logic-Wei",
 	"author": {
 		"name": "Logic Wei",
 		"email": "logic_wei@163.com"
