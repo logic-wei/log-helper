@@ -1,4 +1,4 @@
-# log-helper
+# Log Helper
 
 The aim of the `Log Helper` is to make it easy to analyze log in vscode.
 
