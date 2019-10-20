@@ -1,0 +1,57 @@
+{
+	"name": "log-helper",
+	"displayName": "log-helper",
+	"description": "A tool box for making it easy to analyze log in vscode",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.0.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onCommand:extension.print_matching_lines",
+		"onCommand:extension.delete_matching_lines",
+		"onCommand:extension.print_asan_info"
+	],
+	"main": "./out/extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "extension.print_matching_lines",
+				"title": "Print Matching Lines",
+				"category": "LogHelper"
+			},
+			{
+				"command": "extension.delete_matching_lines",
+				"title": "Delete Matching Lines",
+				"category": "LogHelper",
+				"enablement": "false"
+			},
+			{
+				"command": "extension.print_asan_info",
+				"title": "Print ASan Info",
+				"category": "LogHelper",
+				"enablement": "false"
+			}
+		]
+	},
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -p ./",
+		"watch": "tsc -watch -p ./",
+		"pretest": "npm run compile",
+		"test": "node ./out/test/runTest.js"
+	},
+	"devDependencies": {
+		"@types/glob": "^7.1.1",
+		"@types/mocha": "^5.2.6",
+		"@types/node": "^10.12.21",
+		"@types/vscode": "^1.39.0",
+		"glob": "^7.1.4",
+		"mocha": "^6.1.4",
+		"typescript": "^3.3.1",
+		"tslint": "^5.12.1",
+		"vscode-test": "^1.2.0"
+	}
+}
